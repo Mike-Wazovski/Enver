@@ -1,0 +1,298 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+
+body{
+  
+    background-color: #19191B;
+    font-family: "Nunito Sans", sans-serif;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoimg{
+    width: 132px;
+    height: 40px;
+}
+
+.logo{
+    
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+
+.logo:hover{
+    transform: scale(1.1);
+  }
+
+header a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 4rem;
+   border-bottom: 3px solid transparent;
+   transition: 0.3s ease;
+}
+
+nav a:hover{
+    font-size: 18px;
+    font-weight: 600;
+    color: #5454D4;
+    text-decoration: none;
+    border-bottom: 3px solid #5454D4;
+    
+}
+.main{
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.main:hover{
+    transform: scale(1.1);
+  }
+
+
+.btn1{
+    width: 157px;
+    height: 44px;
+    background-color: #19191B;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+}
+
+.btn1:hover{
+    width: 157px;
+    height: 44px;
+    background-color: #5454d4;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+}
+
+.big1{
+    font-size: 80px;
+    font-weight: 900;
+    color: white;
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
+
+.mini1{
+    font-size: 21px;
+    font-weight: 400;
+    color: #868484;
+    margin: 0px 0px;
+}
+
+.qqq{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.btn2{
+    background-color: #5454D4;
+    text-align: center;
+    width: 204px;
+    height: 58px;
+    border: none;
+    border-radius: 4px;
+    margin: 60px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+
+.btn2:hover{
+    background-color: #4B4BB3;
+    text-align: center;
+    width: 204px;
+    height: 58px;
+    border: none;
+    border-radius: 4px;
+    margin: 60px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+
+.s1-main{
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s2-1{
+    height: 234px;
+    margin-top: 320px;
+}
+
+.main-s2-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left-b{
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+    margin-top: 0;
+}
+
+.www{
+    font-size: 21px;
+    font-weight: 400;
+    color: #868484;
+}
+
+
+.s2{
+    height: 860px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mp4{
+  width: 1200px;
+  height: 670px;
+  
+}
+
+.s3-big{
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+   
+}
+
+.s3-top{
+    text-align: center;
+}
+
+.icons-s3-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.i3-1-1-t{
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+
+.i3-1-1-t-m{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255, 0.3);
+}
+
+.s4{
+    margin-top: 150px;
+}
+
+.s4-big{
+    font-size: 58px;
+    font-weight: 900;
+    color: white;
+    display: flex;
+    text-align: start;
+    padding-bottom: 50px;
+}
+
+.btn-s4-1{
+    width: 16px;
+    height: 8px;
+    background-color: #5454D4;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-s4-2{
+    width: 8px;
+    height: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: #121213;
+    margin-left: 10px;
+}
+
+.slider{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.s5-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.s5-big{
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+}
+
+.s5{
+    height: 506px;
+}
+
+
+.fa{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(255, 255, 255, 0.3);
+    text-decoration: none;
+    margin-left: 4rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-m{
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.icon-m:hover{
+    transform: scale(1.1);
+}
+
